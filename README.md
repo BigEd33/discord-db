@@ -1,7 +1,8 @@
 # discord-db
-A simple/joke package to use Discord channels as a key-value database.
+> A simple/joke package to use Discord channels as a key-value database.
 
-### ⚠️ This is not meant to be used in production apps like DiscordJS bots, using this as a database in an active bot will get you ratelimited constantly. ⚠️
+⚠️ This is not meant to be used in production apps like Discord.JS bots, using this as a database in an active bot will get you ratelimited constantly. ⚠️
+
 
 ## Install
 
@@ -21,8 +22,8 @@ const client = new DiscordDB({
 client.login().then(() => console.log("Connected!")) // Required before running any queries.
 ```
 
-#### To create a collection, create a category in your guild prefixed with DB_, anything after the underscore is the collection name.
-#### These methods are all asynchronous and return promises.
+To create a collection, create a category in your guild prefixed with DB_, anything after the underscore is the collection name.
+These methods are all asynchronous and return promises.
 ```js
 (async () => {
   // Category is named db_users
