@@ -1,4 +1,7 @@
 /node_modules
 /.github
 /.git
+.gitignore
 .eslintrc.json
+LICENSE.md
+README.md
