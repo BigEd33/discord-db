@@ -1,11 +1,11 @@
 # discord-db
 > A simple/joke package to use Discord channels as a key-value database.
 
-⚠️ This is not meant to be used in production apps like Discord.JS bots, using this as a database in an active bot will get you ratelimited constantly. ⚠️
+⚠️ This is not meant to be used in production apps like Discord.JS bots, only in prototypes, using this as a database in an active bot will get you ratelimited constantly. ⚠️
 
 
 ## Install
-
+[![NPM Download](https://nodei.co/npm/discord-data.png?downloads=true)](https://www.npmjs.com/package/discord-data)
 ```sh
 npm install discord-data
 ```

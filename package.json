@@ -1,6 +1,6 @@
 {
   "name": "discord-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple/joke package to use Discord channels as a database.",
   "type": "module",
   "main": "src/main.js",
