@@ -1,4 +1,4 @@
-import DiscordDB from "../src/main.js";
+import DiscordDB from "../src/module/main.js";
 import assert from "assert";
 
 describe("DiscordDB Client", () => {

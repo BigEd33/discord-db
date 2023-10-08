@@ -1,4 +1,5 @@
-# discord-db
+# discord-db [![NPM Download](https://badge.fury.io/js/discord-data.svg)](https://www.npmjs.com/package/discord-data)
+
 > A simple/joke package to use Discord channels as a key-value database.
 
 ⚠️ This is not meant to be used in production apps like Discord.JS bots, only in prototypes, using this as a database in an active bot will get you ratelimited constantly. ⚠️
@@ -11,9 +12,10 @@ npm install discord-data
 ```
 
 ## Usage
-Doesn't support CommonJS.
 ```js
 import DiscordDB from "discord-data";
+or
+const DiscordDB = require("discord-data");
 
 const client = new DiscordDB({ 
     token: "DISCORD_BOT_TOKEN_HERE",

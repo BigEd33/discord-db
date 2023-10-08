@@ -44,15 +44,7 @@ const loadCollections = async (client) => {
 
 const getCollectionId = async (client, target) => {
   target = target.replace(/DB_/ig, "");
-  // let id;
   const collection = client.collections.find((col) => col.name.split("_")[1].toLowerCase() === target.toLowerCase());
-  // for (const channel of client.collections) {
-  // 	if (!channel.name.includes("_") || channel.type !== 4) continue;
-  // 	if (channel.name.split("_")[1].toLowerCase() === target.toLowerCase()) {
-  // 		id = channel.id;
-  // 		break;
-  // 	}
-  // }
   if (!collection) throw new DiscordDBError("Couldn't find that collection.");
   return collection.id;
 };
